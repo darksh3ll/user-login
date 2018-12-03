@@ -1,4 +1,4 @@
-const validUser = {email: 'my_super-email@anon.org', password: 'mY_V3ry-H@rd_paSsW0rd'}
+const validUser = {email: 'david.messagerie@hotmail.fr', password: 'test1234'}
 
 module.exports = {
   signIn: function(req, res, next){ 
@@ -10,7 +10,7 @@ module.exports = {
       })
     }
     else {
-      res.status(402).json({message: "Auth failed !"})
+      res.status(401).json({message: "Auth failed !"})
     }
   }
 }

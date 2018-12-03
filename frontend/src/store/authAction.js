@@ -1,4 +1,4 @@
-export default authAction = (userdata) => {
+export default (userdata) => {
   return ({
     type: "AUTH_USER",
     payload: userdata
