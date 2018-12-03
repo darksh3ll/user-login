@@ -1,12 +1,12 @@
 # Atelier
-Le but de cet atelier va être d'autentifier un utiliseur.
+Le but de cet atelier va être d'authentifier un utiliser.
 
-Le frontend devra envoyer un email et un mot de passe valide vers le serveur afin que celui-ci reponde avec un status 200 et les données de l'utilisateur.
+Le frontend devra envoyer un email et un mot de passe valide vers le serveur afin que celui-ci réponde avec un status 200 et les données de l'utilisateur.
 
-Si la connexion est réussi alors le frontend dévérouillera la route `/admin` afin que l'utilisateur connecter puisse y acceder.
+Si la connexion est réussie alors le frontend déverrouillera la route `/admin` afin que l'utilisateur connecté puisse y accéder.
 
 # Server side
-Cet exercie est une simulation, il n'est donc pas necessaire d'avoir une base de donnée, l'email est le mot de passe sont codé en dur sur la route `/auth/signin`
+Cet exercice est une simulation, il n'est donc pas nécessaire d'avoir une base de données, l'email et le mot de passe sont codés en dur sur la route `/auth/signin`
 
 # Client side
 Côté React, une route `/admin` existera et sera accessible uniquement si l'user est authentifié et admin
